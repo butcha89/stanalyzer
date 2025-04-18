@@ -1,0 +1,1024 @@
+2025-04-16 22:56:23,170 - INFO - Generating statistics...
+2025-04-16 22:56:23,197 - ERROR - Error executing command: Query failed with status code 422: {"errors":[{"message":"Variable \"$filter\" of type \"SceneFilterType\" used in position expecting type \"FindFilterType\".","locations":[{"line":3,"column":30}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"}},{"message":"Cannot query field \"rating\" on type \"Scene\". Did you mean \"rating100\"?","locations":[{"line":11,"column":15}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"}},{"message":"Cannot query field \"chapters_vtt\" on type \"ScenePathsType\".","locations":[{"line":35,"column":17}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"}}],"data":null}
+2025-04-16 22:56:56,934 - INFO - Generating statistics...
+2025-04-16 22:56:56,955 - ERROR - Error executing command: Query failed with status code 422: {"errors":[{"message":"Variable \"$filter\" of type \"SceneFilterType\" used in position expecting type \"FindFilterType\".","locations":[{"line":3,"column":30}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"}},{"message":"Cannot query field \"rating\" on type \"Scene\". Did you mean \"rating100\"?","locations":[{"line":11,"column":15}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"}},{"message":"Cannot query field \"chapters_vtt\" on type \"ScenePathsType\".","locations":[{"line":35,"column":17}],"extensions":{"code":"GRAPHQL_VALIDATION_FAILED"}}],"data":null}
+2025-04-16 22:58:05,425 - INFO - Generating statistics...
+2025-04-16 22:58:05,477 - ERROR - Error executing command: Object of type DataFrame is not JSON serializable
+2025-04-16 22:59:50,121 - INFO - Generating statistics...
+2025-04-16 22:59:50,167 - INFO - Statistics saved to stash_stats.json
+2025-04-16 22:59:50,167 - INFO - 
+Cup Size Distribution:
+2025-04-16 22:59:50,167 - INFO -   34D: 4
+2025-04-16 22:59:50,167 - INFO -   34B: 4
+2025-04-16 22:59:50,167 - INFO -   32D: 2
+2025-04-16 22:59:50,167 - INFO -   33A: 1
+2025-04-16 22:59:50,168 - INFO -   36D: 1
+2025-04-16 23:03:11,187 - INFO - Generating statistics...
+2025-04-16 23:03:11,232 - ERROR - Error executing command: 'Namespace' object has no attribute 'output'
+2025-04-16 23:03:29,840 - INFO - Generating recommendations...
+2025-04-16 23:03:29,876 - ERROR - Error executing command: 'list' object has no attribute 'empty'
+2025-04-16 23:06:07,009 - INFO - Loaded 25 performers and 25 scenes
+2025-04-16 23:06:07,010 - INFO - Generating recommendations...
+2025-04-16 23:06:07,010 - INFO - Found 10 performer recommendations
+2025-04-16 23:06:07,010 - INFO - Scene recommendations generated
+2025-04-16 23:10:55,504 - INFO - Loaded 25 performers and 25 scenes
+2025-04-16 23:10:55,504 - INFO - Generating statistics...
+2025-04-16 23:10:55,532 - INFO - Statistics saved to stash_stats.json
+2025-04-16 23:10:55,533 - INFO - 
+Cup Size Distribution:
+2025-04-16 23:10:55,533 - INFO -   34D: 4
+2025-04-16 23:10:55,533 - INFO -   34B: 4
+2025-04-16 23:10:55,533 - INFO -   32D: 2
+2025-04-16 23:10:55,533 - INFO -   33A: 1
+2025-04-16 23:10:55,533 - INFO -   36D: 1
+2025-04-16 23:10:58,784 - INFO - Loaded 25 performers and 25 scenes
+2025-04-16 23:10:58,785 - INFO - Generating recommendations...
+2025-04-16 23:10:58,785 - INFO - Found 10 performer recommendations
+2025-04-16 23:10:58,785 - INFO - Scene recommendations generated
+2025-04-16 23:17:07,369 - INFO - Loaded 25 performers and 25 scenes
+2025-04-16 23:17:07,369 - INFO - Generating statistics...
+2025-04-16 23:17:07,397 - INFO - Statistics saved to stash_stats.json
+2025-04-16 23:17:07,397 - INFO - 
+Cup Size Distribution:
+2025-04-16 23:17:07,397 - INFO -   34D: 4
+2025-04-16 23:17:07,397 - INFO -   34B: 4
+2025-04-16 23:17:07,397 - INFO -   32D: 2
+2025-04-16 23:17:07,397 - INFO -   33A: 1
+2025-04-16 23:17:07,397 - INFO -   36D: 1
+2025-04-16 23:17:10,192 - INFO - Loaded 25 performers and 25 scenes
+2025-04-16 23:17:10,192 - INFO - Generating recommendations...
+2025-04-16 23:17:10,192 - INFO - Found 10 performer recommendations
+2025-04-16 23:17:10,192 - INFO - Scene recommendations generated
+2025-04-16 23:18:12,585 - INFO - Loaded 25 performers and 25 scenes
+2025-04-16 23:18:12,586 - INFO - Generating and sending recommendations...
+2025-04-16 23:18:18,579 - INFO - Successfully sent recommendations to Discord
+2025-04-16 23:24:50,340 - ERROR - Failed to import modules: cannot import name 'send_recommendations' from 'modules.discord' (/mnt/user/system/scripts/stashv1/modules/discord.py)
+2025-04-16 23:26:03,028 - INFO - Loaded 25 performers and 25 scenes
+2025-04-16 23:26:03,028 - INFO - Generating statistics...
+2025-04-16 23:26:03,056 - INFO - Statistics saved to stash_stats.json
+2025-04-16 23:26:03,056 - INFO - 
+Cup Size Distribution:
+2025-04-16 23:26:03,057 - INFO -   34D: 4
+2025-04-16 23:26:03,057 - INFO -   34B: 4
+2025-04-16 23:26:03,057 - INFO -   32D: 2
+2025-04-16 23:26:03,057 - INFO -   33A: 1
+2025-04-16 23:26:03,057 - INFO -   36D: 1
+2025-04-16 23:26:07,479 - INFO - Loaded 25 performers and 25 scenes
+2025-04-16 23:26:07,479 - INFO - Sending information to Discord...
+2025-04-16 23:26:07,479 - INFO - Sending statistics...
+2025-04-16 23:26:12,831 - INFO - Successfully sent message to Discord
+2025-04-16 23:28:52,958 - INFO - Loaded 25 performers and 25 scenes
+2025-04-16 23:28:52,958 - INFO - Sending information to Discord...
+2025-04-16 23:28:52,959 - INFO - Sending statistics...
+2025-04-16 23:28:58,258 - INFO - Successfully sent message to Discord
+2025-04-16 23:31:13,491 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:31:15,742 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:31:15,742 - INFO - Loaded 2560 performers and 5648 scenes
+2025-04-16 23:31:15,742 - INFO - Sending information to Discord...
+2025-04-16 23:31:15,743 - INFO - Sending statistics...
+2025-04-16 23:31:16,097 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:31:18,315 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:31:23,812 - INFO - Successfully sent message to Discord
+2025-04-16 23:31:43,110 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:31:45,320 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:31:45,320 - INFO - Loaded 2560 performers and 5648 scenes
+2025-04-16 23:31:45,320 - INFO - Generating recommendations...
+2025-04-16 23:31:46,565 - INFO - Found 10 performer recommendations
+2025-04-16 23:31:46,577 - INFO - Scene recommendations generated
+2025-04-16 23:31:54,206 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:31:56,447 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:31:56,448 - INFO - Loaded 2560 performers and 5648 scenes
+2025-04-16 23:31:56,448 - INFO - Sending information to Discord...
+2025-04-16 23:31:56,448 - INFO - Sending recommendations...
+2025-04-16 23:32:02,982 - ERROR - Failed to send message to Discord. Status code: 400
+2025-04-16 23:32:02,983 - INFO - Sending statistics...
+2025-04-16 23:32:03,327 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:32:05,540 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:32:11,029 - INFO - Successfully sent message to Discord
+2025-04-16 23:33:25,825 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:33:28,066 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:33:28,067 - INFO - Loaded 2560 performers and 5648 scenes
+2025-04-16 23:33:28,067 - INFO - Sending information to Discord...
+2025-04-16 23:33:28,067 - INFO - Sending recommendations...
+2025-04-16 23:33:34,522 - ERROR - Failed to send message to Discord. Status code: 400
+2025-04-16 23:34:48,851 - ERROR - Failed to import modules: cannot import name 'send_statistics' from 'modules.discord' (/mnt/user/system/scripts/stashv1/modules/discord.py)
+2025-04-16 23:36:07,566 - ERROR - Failed to import modules: cannot import name 'send_statistics' from 'modules.discord' (/mnt/user/system/scripts/stashv1/modules/discord.py)
+2025-04-16 23:37:48,767 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:37:51,162 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:37:51,162 - INFO - Loaded 2560 performers and 5648 scenes
+2025-04-16 23:37:51,162 - INFO - Sending information to Discord...
+2025-04-16 23:37:51,162 - INFO - Sending recommendations...
+2025-04-16 23:37:51,163 - INFO - Preparing to send recommendations
+2025-04-16 23:37:57,807 - INFO - Successfully sent chunk 1 to Discord
+2025-04-16 23:38:03,148 - INFO - Successfully sent chunk 2 to Discord
+2025-04-16 23:42:17,039 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:42:19,331 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:42:19,331 - INFO - Loaded 2560 performers and 5648 scenes
+2025-04-16 23:42:19,331 - INFO - Sending information to Discord...
+2025-04-16 23:42:19,331 - INFO - Sending recommendations...
+2025-04-16 23:42:19,332 - INFO - Preparing to send recommendations
+2025-04-16 23:42:25,903 - INFO - Successfully sent chunk 1 to Discord
+2025-04-16 23:42:31,238 - INFO - Successfully sent chunk 2 to Discord
+2025-04-16 23:42:31,878 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:42:34,095 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:42:34,095 - INFO - Loaded 2560 performers and 5648 scenes
+2025-04-16 23:42:34,095 - INFO - Sending information to Discord...
+2025-04-16 23:42:34,095 - INFO - Sending recommendations...
+2025-04-16 23:42:34,096 - INFO - Preparing to send recommendations
+2025-04-16 23:42:40,674 - INFO - Successfully sent chunk 1 to Discord
+2025-04-16 23:42:45,953 - INFO - Successfully sent chunk 2 to Discord
+2025-04-16 23:43:01,756 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:43:04,066 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:43:04,067 - INFO - Loaded 2560 performers and 5648 scenes
+2025-04-16 23:43:04,067 - INFO - Sending information to Discord...
+2025-04-16 23:43:04,067 - INFO - Sending statistics...
+2025-04-16 23:43:04,067 - INFO - Preparing to send statistics
+2025-04-16 23:43:04,067 - ERROR - Error formatting statistics: 'StatisticsModule' object has no attribute 'generate_all_stats'
+2025-04-16 23:43:09,323 - INFO - Successfully sent chunk 1 to Discord
+2025-04-16 23:44:37,425 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:44:39,678 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:44:39,679 - INFO - Loaded 2560 performers and 5648 scenes
+2025-04-16 23:44:39,679 - INFO - Sending information to Discord...
+2025-04-16 23:44:39,679 - INFO - Sending statistics...
+2025-04-16 23:44:39,679 - INFO - Preparing to send statistics
+2025-04-16 23:44:40,006 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:44:42,209 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:44:47,743 - INFO - Successfully sent chunk 1 to Discord
+2025-04-16 23:49:56,154 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:49:58,427 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:49:58,427 - INFO - Loaded 2560 performers and 5648 scenes
+2025-04-16 23:49:58,427 - INFO - Sending information to Discord...
+2025-04-16 23:49:58,428 - INFO - Sending statistics...
+2025-04-16 23:49:58,428 - INFO - Preparing to send statistics
+2025-04-16 23:49:58,770 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:50:01,052 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:50:06,572 - INFO - Successfully sent chunk 1 to Discord
+2025-04-16 23:50:12,693 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:50:14,941 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:50:14,941 - INFO - Loaded 2560 performers and 5648 scenes
+2025-04-16 23:50:14,941 - INFO - Sending information to Discord...
+2025-04-16 23:50:14,941 - INFO - Sending recommendations...
+2025-04-16 23:50:14,942 - INFO - Preparing to send recommendations
+2025-04-16 23:50:15,257 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-16 23:50:17,474 - INFO - Retrieved 5648 scenes out of 5648 total
+2025-04-16 23:50:24,526 - INFO - Successfully sent chunk 1 to Discord
+2025-04-16 23:50:29,880 - INFO - Successfully sent chunk 2 to Discord
+2025-04-16 23:50:29,880 - INFO - Sending statistics...
+2025-04-16 23:50:29,880 - INFO - Preparing to send statistics
+2025-04-16 23:50:35,426 - INFO - Successfully sent chunk 1 to Discord
+2025-04-17 08:03:49,195 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 08:03:51,391 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 08:03:51,392 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 08:03:51,392 - INFO - Sending information to Discord...
+2025-04-17 08:03:51,392 - INFO - Sending recommendations...
+2025-04-17 08:03:51,392 - INFO - Preparing to send recommendations
+2025-04-17 08:03:51,728 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 08:03:53,911 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 08:03:59,427 - INFO - Successfully sent chunk 1 to Discord
+2025-04-17 08:04:04,679 - INFO - Successfully sent chunk 2 to Discord
+2025-04-17 08:04:04,679 - INFO - Sending statistics...
+2025-04-17 08:04:04,679 - INFO - Preparing to send statistics
+2025-04-17 08:04:10,162 - INFO - Successfully sent chunk 1 to Discord
+2025-04-17 08:57:32,595 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 08:57:34,834 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 08:57:34,834 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 08:57:34,834 - INFO - Generating statistics...
+2025-04-17 08:57:35,159 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 08:57:37,357 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 08:57:37,618 - ERROR - Error executing command: unsupported operand type(s) for +: 'int' and 'NoneType'
+2025-04-17 09:13:20,971 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:13:23,238 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:13:23,238 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 09:13:23,238 - INFO - Generating statistics...
+2025-04-17 09:13:23,604 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:13:25,826 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:13:26,078 - ERROR - Error executing command: name 'cpd' is not defined
+2025-04-17 09:14:49,714 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:14:51,978 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:14:51,978 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 09:14:51,978 - INFO - Generating statistics...
+2025-04-17 09:14:52,316 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:14:54,546 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:14:54,845 - ERROR - Error executing command: Input X contains NaN.
+KMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+2025-04-17 09:21:51,744 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:21:53,989 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:21:53,989 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 09:21:53,989 - INFO - Generating statistics...
+2025-04-17 09:21:54,348 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:21:56,618 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:21:56,619 - ERROR - Error executing command: '>' not supported between instances of 'NoneType' and 'int'
+2025-04-17 09:33:03,917 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:33:06,198 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:33:06,198 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 09:33:06,198 - INFO - Generating statistics...
+2025-04-17 09:33:06,574 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:33:08,776 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:33:09,028 - ERROR - Error executing command: Object of type DataFrame is not JSON serializable
+2025-04-17 09:35:10,563 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:35:12,744 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:35:12,745 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 09:35:12,745 - INFO - Generating statistics...
+2025-04-17 09:35:12,745 - ERROR - Error executing command: 'StatisticsModule' object has no attribute 'generate_all_stats'
+2025-04-17 09:36:11,677 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:36:13,880 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:36:13,880 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 09:36:13,880 - INFO - Generating statistics...
+2025-04-17 09:36:13,880 - ERROR - Error executing command: 'StatisticsModule' object has no attribute 'generate_all_stats'
+2025-04-17 09:38:52,004 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:38:54,334 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:38:54,334 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 09:38:54,334 - INFO - Generating statistics...
+2025-04-17 09:38:54,714 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:38:56,926 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:38:57,346 - INFO - Statistics saved to stash_stats.json
+2025-04-17 09:38:57,346 - INFO - 
+Cup Size Distribution:
+2025-04-17 09:38:57,346 - INFO -   75B: 207
+2025-04-17 09:38:57,346 - INFO -   75D: 200
+2025-04-17 09:38:57,346 - INFO -   75C: 189
+2025-04-17 09:38:57,346 - INFO -   70B: 158
+2025-04-17 09:38:57,346 - INFO -   75E: 147
+2025-04-17 09:42:12,837 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:42:15,060 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:42:15,060 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 09:42:15,060 - INFO - Sending information to Discord...
+2025-04-17 09:42:15,060 - INFO - Sending statistics...
+2025-04-17 09:42:15,061 - INFO - Preparing to send statistics
+2025-04-17 09:42:15,439 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:42:17,671 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:42:17,949 - ERROR - Error formatting statistics: Unknown format code 'f' for object of type 'str'
+2025-04-17 09:42:23,264 - INFO - Successfully sent chunk 1 to Discord
+2025-04-17 09:42:41,271 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:42:43,501 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:42:43,501 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 09:42:43,502 - INFO - Sending information to Discord...
+2025-04-17 09:42:43,502 - INFO - Sending statistics...
+2025-04-17 09:42:43,502 - INFO - Preparing to send statistics
+2025-04-17 09:42:43,862 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 09:42:46,086 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 09:42:51,736 - INFO - Successfully sent chunk 1 to Discord
+2025-04-17 13:07:27,186 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:07:29,416 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:07:29,417 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 13:07:29,417 - INFO - Sending information to Discord...
+2025-04-17 13:07:29,417 - INFO - Sending statistics...
+2025-04-17 13:07:29,417 - ERROR - Error executing command: 'DiscordModule' object has no attribute 'send_statistics'
+2025-04-17 13:17:22,502 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:17:24,747 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:17:24,747 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 13:17:24,747 - INFO - Sending information to Discord...
+2025-04-17 13:17:24,747 - INFO - Sending statistics...
+2025-04-17 13:17:24,748 - INFO - Preparing to send statistics
+2025-04-17 13:17:24,748 - ERROR - Error formatting statistics: 'StatisticsModule' object has no attribute 'generate_all_stats'
+Traceback (most recent call last):
+  File "/mnt/user/system/scripts/stashv1/modules/discord.py", line 135, in format_statistics
+    stats = self.stats_module.generate_all_stats()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'StatisticsModule' object has no attribute 'generate_all_stats'
+2025-04-17 13:17:30,117 - INFO - Successfully sent chunk 1 to Discord
+2025-04-17 13:38:13,255 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:38:15,514 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:38:15,515 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 13:38:15,515 - INFO - Sending information to Discord...
+2025-04-17 13:38:15,515 - INFO - Sending statistics...
+2025-04-17 13:38:15,516 - INFO - Preparing to send statistics
+2025-04-17 13:38:15,882 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:38:18,095 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:38:18,288 - ERROR - Error formatting statistics: Length mismatch: Expected axis has 3 elements, new values have 5 elements
+Traceback (most recent call last):
+  File "/mnt/user/system/scripts/stashv1/modules/discord.py", line 135, in format_statistics
+    stats = self.stats_module.generate_all_stats()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/user/system/scripts/stashv1/modules/statistics.py", line 439, in generate_all_stats
+    correlation_stats = self.get_cup_size_o_counter_correlation()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/user/system/scripts/stashv1/modules/statistics.py", line 209, in get_cup_size_o_counter_correlation
+    cup_letter_stats.columns = [
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/site-packages/pandas/core/generic.py", line 6313, in __setattr__
+    return object.__setattr__(self, name, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "properties.pyx", line 69, in pandas._libs.properties.AxisProperty.__set__
+  File "/usr/lib64/python3.11/site-packages/pandas/core/generic.py", line 814, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "/usr/lib64/python3.11/site-packages/pandas/core/internals/managers.py", line 238, in set_axis
+    self._validate_set_axis(axis, new_labels)
+  File "/usr/lib64/python3.11/site-packages/pandas/core/internals/base.py", line 98, in _validate_set_axis
+    raise ValueError(
+ValueError: Length mismatch: Expected axis has 3 elements, new values have 5 elements
+2025-04-17 13:38:23,591 - INFO - Successfully sent chunk 1 to Discord
+2025-04-17 13:41:21,767 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:41:23,954 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:41:23,954 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 13:41:23,954 - INFO - Sending information to Discord...
+2025-04-17 13:41:23,955 - INFO - Sending statistics...
+2025-04-17 13:41:23,955 - INFO - Preparing to send statistics
+2025-04-17 13:41:24,327 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:41:26,534 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:41:26,795 - ERROR - Error formatting statistics: name 'cup_stats' is not defined
+Traceback (most recent call last):
+  File "/mnt/user/system/scripts/stashv1/modules/discord.py", line 135, in format_statistics
+    stats = self.stats_module.generate_all_stats()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/user/system/scripts/stashv1/modules/statistics.py", line 458, in generate_all_stats
+    'cup_size_dataframe': convert_dataframe(cup_stats['cup_size_dataframe'])
+                                            ^^^^^^^^^
+NameError: name 'cup_stats' is not defined
+2025-04-17 13:41:32,049 - INFO - Successfully sent chunk 1 to Discord
+2025-04-17 13:44:00,963 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:44:03,212 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:44:03,213 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 13:44:03,213 - INFO - Sending information to Discord...
+2025-04-17 13:44:03,213 - INFO - Sending statistics...
+2025-04-17 13:44:03,213 - INFO - Preparing to send statistics
+2025-04-17 13:44:03,574 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:44:05,792 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:44:11,432 - INFO - Successfully sent chunk 1 to Discord
+2025-04-17 13:49:07,051 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:49:09,287 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:49:09,287 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 13:49:09,287 - INFO - Sending information to Discord...
+2025-04-17 13:49:09,288 - INFO - Sending statistics...
+2025-04-17 13:49:09,288 - INFO - Preparing to send statistics
+2025-04-17 13:49:09,653 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:49:11,901 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:49:17,454 - INFO - Successfully sent chunk 1 to Discord
+2025-04-17 13:49:51,572 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:49:53,846 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:49:53,846 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 13:49:53,846 - INFO - Generating statistics...
+2025-04-17 13:49:54,221 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:49:56,405 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:49:56,812 - INFO - Statistics saved to stash_stats.json
+2025-04-17 13:49:56,812 - INFO - 
+Cup Size Distribution:
+2025-04-17 13:49:56,812 - INFO -   34B: 207
+2025-04-17 13:49:56,812 - INFO -   34D: 200
+2025-04-17 13:49:56,813 - INFO -   34C: 189
+2025-04-17 13:49:56,813 - INFO -   32B: 158
+2025-04-17 13:49:56,813 - INFO -   34DD: 124
+2025-04-17 13:54:20,409 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:54:22,675 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:54:22,675 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 13:54:22,676 - INFO - Sending information to Discord...
+2025-04-17 13:54:22,676 - INFO - Sending statistics...
+2025-04-17 13:54:22,676 - INFO - Preparing to send statistics
+2025-04-17 13:54:22,676 - ERROR - Error executing command: 'DiscordModule' object has no attribute 'format_statistics'
+2025-04-17 13:57:01,617 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:57:03,845 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:57:03,846 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 13:57:03,846 - INFO - Sending information to Discord...
+2025-04-17 13:57:03,846 - INFO - Sending statistics...
+2025-04-17 13:57:03,846 - INFO - Preparing to send statistics
+2025-04-17 13:57:04,216 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 13:57:06,432 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 13:57:12,061 - INFO - Successfully sent chunk 1 to Discord
+2025-04-17 14:33:38,161 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 14:33:40,351 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 14:33:40,351 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 14:33:40,351 - INFO - Sending information to Discord...
+2025-04-17 14:33:40,351 - INFO - Sending statistics...
+2025-04-17 14:33:40,352 - INFO - Preparing to send statistics
+2025-04-17 14:33:40,707 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 14:33:42,948 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 14:33:48,590 - INFO - Successfully sent chunk 1 to Discord
+2025-04-17 14:38:51,879 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 14:38:54,112 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 14:38:54,113 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 14:38:54,113 - INFO - Sending information to Discord...
+2025-04-17 14:38:54,113 - INFO - Sending statistics...
+2025-04-17 14:38:54,113 - INFO - Preparing to send statistics
+2025-04-17 14:38:54,478 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 14:38:56,762 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 14:39:02,391 - INFO - Successfully sent chunk 1 to Discord
+2025-04-17 14:47:37,548 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 14:47:39,787 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 14:47:39,788 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 14:47:39,788 - INFO - Sending information to Discord...
+2025-04-17 14:47:39,788 - INFO - Sending statistics...
+2025-04-17 14:47:39,788 - INFO - Preparing to send statistics
+2025-04-17 14:47:40,132 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 14:47:42,404 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 14:47:47,987 - INFO - Successfully sent chunk 1 to Discord
+2025-04-17 14:53:10,815 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 14:53:13,058 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 14:53:13,058 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 14:53:13,058 - INFO - Generating statistics...
+2025-04-17 14:53:13,446 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 14:53:15,651 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 14:53:16,075 - INFO - Statistics saved to stash_stats.json
+2025-04-17 14:53:16,075 - INFO - 
+Cup Size Distribution:
+2025-04-17 14:53:16,075 - INFO -   75B: 207
+2025-04-17 14:53:16,075 - INFO -   75D: 200
+2025-04-17 14:53:16,075 - INFO -   75C: 190
+2025-04-17 14:53:16,075 - INFO -   70B: 158
+2025-04-17 14:53:16,075 - INFO -   75E: 147
+2025-04-17 14:55:48,130 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 14:55:50,366 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 14:55:50,367 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 14:55:50,367 - INFO - Generating statistics...
+2025-04-17 14:55:50,713 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 14:55:53,007 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 14:55:53,277 - ERROR - Error executing command: '>' not supported between instances of 'NoneType' and 'int'
+2025-04-17 15:03:47,812 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 15:03:50,018 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 15:03:50,018 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 15:03:50,018 - INFO - Generating statistics...
+2025-04-17 15:03:50,390 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 15:03:52,629 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 15:03:52,900 - ERROR - Error executing command: 'StatisticsModule' object has no attribute 'get_favorite_o_counter_stats'
+2025-04-17 15:08:49,866 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 15:08:52,050 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 15:08:52,050 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 15:08:52,050 - INFO - Generating statistics...
+2025-04-17 15:08:52,424 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 15:08:54,650 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 15:08:54,930 - ERROR - Error executing command: '>' not supported between instances of 'NoneType' and 'int'
+2025-04-17 15:28:35,939 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 15:28:38,219 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 15:28:38,219 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 15:28:38,219 - INFO - Generating statistics...
+2025-04-17 15:28:38,594 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 15:28:40,924 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 15:28:41,016 - ERROR - Error executing command: '>' not supported between instances of 'NoneType' and 'int'
+2025-04-17 15:34:23,828 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 15:34:26,084 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 15:34:26,085 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 15:34:26,085 - INFO - Generating statistics...
+2025-04-17 15:34:26,085 - ERROR - Error executing command: 'StatisticsModule' object has no attribute 'generate_all_stats'
+2025-04-17 15:40:44,263 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 15:40:46,478 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 15:40:46,478 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 15:40:46,479 - INFO - Generating statistics...
+2025-04-17 15:40:46,479 - ERROR - Error executing command: 'StatisticsModule' object has no attribute 'generate_all_stats'
+2025-04-17 16:01:53,909 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 16:01:56,179 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 16:01:56,180 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 16:01:56,180 - INFO - Generating statistics...
+2025-04-17 16:01:56,554 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 16:01:58,809 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 16:01:58,894 - ERROR - Error executing command: Object of type DataFrame is not JSON serializable
+2025-04-17 16:08:12,584 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 16:08:14,783 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 16:08:14,783 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 16:08:14,783 - INFO - Generating statistics...
+2025-04-17 16:08:15,147 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 16:08:17,313 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 16:08:17,582 - ERROR - Error executing command: '>' not supported between instances of 'NoneType' and 'int'
+2025-04-17 16:08:38,480 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 16:08:40,633 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 16:08:40,633 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 16:08:40,634 - INFO - Generating statistics...
+2025-04-17 16:08:40,978 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 16:08:43,198 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 16:08:43,443 - INFO - Statistics saved to stash_stats.json
+2025-04-17 16:08:43,443 - INFO - 
+Cup Size Distribution:
+2025-04-17 16:08:43,443 - INFO -   75B: 207
+2025-04-17 16:08:43,443 - INFO -   75D: 200
+2025-04-17 16:08:43,444 - INFO -   75C: 190
+2025-04-17 16:08:43,444 - INFO -   70B: 158
+2025-04-17 16:08:43,444 - INFO -   75E: 147
+2025-04-17 16:09:02,809 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 16:09:05,013 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 16:09:05,013 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-17 16:09:05,013 - INFO - Sending information to Discord...
+2025-04-17 16:09:05,013 - INFO - Sending statistics...
+2025-04-17 16:09:05,014 - INFO - Preparing to send statistics
+2025-04-17 16:09:05,408 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-17 16:09:07,668 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-17 16:09:07,794 - ERROR - Error formatting statistics: '>' not supported between instances of 'NoneType' and 'int'
+Traceback (most recent call last):
+  File "/mnt/user/system/scripts/stashv1/modules/discord.py", line 340, in format_statistics
+    message += self.format_favorite_o_counter_stats(favorite_o_counter_stats)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/user/system/scripts/stashv1/modules/discord.py", line 164, in format_favorite_o_counter_stats
+    if performer.get('rating100', 0) > 0:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+2025-04-17 16:09:13,062 - INFO - Successfully sent chunk 1 to Discord
+2025-04-18 00:03:55,031 - ERROR - Failed to import RatioModule: No module named 'base_module'
+2025-04-18 00:03:55,034 - ERROR - Failed to import SisterSizeModule: No module named 'base_module'
+2025-04-18 00:03:55,382 - ERROR - Failed to import PreferenceModule: No module named 'base_module'
+2025-04-18 00:03:55,384 - INFO - Initialized CupSizeModule
+2025-04-18 00:03:55,384 - INFO - Successfully initialized CupSizeModule
+2025-04-18 00:03:55,384 - INFO - Initialized OCounterModule
+2025-04-18 00:03:55,385 - INFO - Successfully initialized OCounterModule
+2025-04-18 00:03:55,385 - ERROR - RatioModule class is not available.
+2025-04-18 00:03:55,385 - ERROR - SisterSizeModule class is not available.
+2025-04-18 00:03:55,385 - ERROR - PreferenceModule class is not available.
+2025-04-18 00:03:55,768 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:03:57,984 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:03:57,985 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-18 00:03:57,985 - INFO - Generating statistics...
+2025-04-18 00:03:57,985 - INFO - Generating all statistics...
+2025-04-18 00:03:57,985 - INFO - Loading data from stash client...
+2025-04-18 00:03:58,340 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:04:00,575 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:04:00,576 - INFO - Data loaded: 2560 performers, 5645 scenes
+2025-04-18 00:04:00,592 - INFO - Cup size statistics collected.
+2025-04-18 00:04:00,592 - INFO - Loading data from stash client...
+2025-04-18 00:04:00,926 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:04:03,367 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:04:03,367 - INFO - Data loaded: 2560 performers, 5645 scenes
+2025-04-18 00:04:03,397 - INFO - O-counter statistics collected.
+2025-04-18 00:04:03,398 - INFO - Favorite o-counter statistics collected.
+2025-04-18 00:04:03,403 - INFO - Rating o-counter correlation collected.
+2025-04-18 00:04:03,403 - ERROR - Error getting ratio statistics: module not available.
+2025-04-18 00:04:03,403 - INFO - Ratio statistics collected.
+2025-04-18 00:04:03,435 - INFO - Cup size o-counter correlation collected.
+2025-04-18 00:04:03,436 - INFO - Top o-counter performers collected.
+2025-04-18 00:04:03,436 - ERROR - PreferenceModule is not available.
+2025-04-18 00:04:03,436 - INFO - Preference profile collected.
+2025-04-18 00:04:03,436 - ERROR - Error getting sister size statistics: module not available.
+2025-04-18 00:04:03,436 - INFO - Sister size statistics collected.
+2025-04-18 00:04:03,436 - ERROR - Error getting volume statistics: module not available.
+2025-04-18 00:04:03,436 - INFO - Volume statistics collected.
+2025-04-18 00:04:03,436 - INFO - All statistics collected.
+2025-04-18 00:04:03,540 - INFO - Statistics saved to stash_stats.json
+2025-04-18 00:04:03,541 - INFO - 
+Cup Size Distribution:
+2025-04-18 00:04:03,541 - INFO -   75B: 207
+2025-04-18 00:04:03,541 - INFO -   75D: 200
+2025-04-18 00:04:03,541 - INFO -   75C: 190
+2025-04-18 00:04:03,541 - INFO -   70B: 158
+2025-04-18 00:04:03,541 - INFO -   75E: 147
+2025-04-18 00:07:47,863 - ERROR - Failed to import RatioModule: No module named 'base_module'
+2025-04-18 00:07:47,864 - ERROR - Failed to import SisterSizeModule: No module named 'base_module'
+2025-04-18 00:07:48,172 - ERROR - Failed to import PreferenceModule: No module named 'base_module'
+2025-04-18 00:08:03,797 - ERROR - Failed to import RatioModule: No module named 'base_module'
+2025-04-18 00:08:03,798 - ERROR - Failed to import SisterSizeModule: No module named 'base_module'
+2025-04-18 00:08:04,121 - ERROR - Failed to import PreferenceModule: No module named 'base_module'
+2025-04-18 00:08:04,123 - INFO - Initialized CupSizeModule
+2025-04-18 00:08:04,124 - INFO - Successfully initialized CupSizeModule
+2025-04-18 00:08:04,124 - INFO - Initialized OCounterModule
+2025-04-18 00:08:04,124 - INFO - Successfully initialized OCounterModule
+2025-04-18 00:08:04,124 - ERROR - RatioModule class is not available.
+2025-04-18 00:08:04,124 - ERROR - SisterSizeModule class is not available.
+2025-04-18 00:08:04,124 - ERROR - PreferenceModule class is not available.
+2025-04-18 00:08:04,494 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:08:06,930 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:08:06,930 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-18 00:08:06,930 - INFO - Sending information to Discord...
+2025-04-18 00:08:06,930 - INFO - Sending statistics...
+2025-04-18 00:08:06,931 - INFO - Preparing to send statistics
+2025-04-18 00:08:06,931 - INFO - Generating all statistics...
+2025-04-18 00:08:06,931 - INFO - Loading data from stash client...
+2025-04-18 00:08:07,313 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:08:09,530 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:08:09,530 - INFO - Data loaded: 2560 performers, 5645 scenes
+2025-04-18 00:08:09,545 - INFO - Cup size statistics collected.
+2025-04-18 00:08:09,545 - INFO - Loading data from stash client...
+2025-04-18 00:08:09,871 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:08:12,227 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:08:12,228 - INFO - Data loaded: 2560 performers, 5645 scenes
+2025-04-18 00:08:12,259 - INFO - O-counter statistics collected.
+2025-04-18 00:08:12,259 - INFO - Favorite o-counter statistics collected.
+2025-04-18 00:08:12,263 - INFO - Rating o-counter correlation collected.
+2025-04-18 00:08:12,263 - ERROR - Error getting ratio statistics: module not available.
+2025-04-18 00:08:12,263 - INFO - Ratio statistics collected.
+2025-04-18 00:08:12,301 - INFO - Cup size o-counter correlation collected.
+2025-04-18 00:08:12,301 - INFO - Top o-counter performers collected.
+2025-04-18 00:08:12,301 - ERROR - PreferenceModule is not available.
+2025-04-18 00:08:12,301 - INFO - Preference profile collected.
+2025-04-18 00:08:12,302 - ERROR - Error getting sister size statistics: module not available.
+2025-04-18 00:08:12,302 - INFO - Sister size statistics collected.
+2025-04-18 00:08:12,302 - ERROR - Error getting volume statistics: module not available.
+2025-04-18 00:08:12,302 - INFO - Volume statistics collected.
+2025-04-18 00:08:12,302 - INFO - All statistics collected.
+2025-04-18 00:08:17,578 - INFO - Successfully sent chunk 1 to Discord
+2025-04-18 00:08:22,823 - INFO - Successfully sent chunk 2 to Discord
+2025-04-18 00:13:17,715 - INFO - Initialized CupSizeModule
+2025-04-18 00:13:17,719 - INFO - Successfully initialized CupSizeModule
+2025-04-18 00:13:17,719 - INFO - Initialized OCounterModule
+2025-04-18 00:13:17,719 - INFO - Successfully initialized OCounterModule
+2025-04-18 00:13:17,719 - INFO - Initialized RatioModule
+2025-04-18 00:13:17,719 - INFO - Successfully initialized RatioModule
+2025-04-18 00:13:17,719 - INFO - Initialized SisterSizeModule
+2025-04-18 00:13:17,719 - INFO - Successfully initialized SisterSizeModule
+2025-04-18 00:13:17,719 - INFO - Initialized PreferenceModule
+2025-04-18 00:13:17,719 - INFO - Successfully initialized PreferenceModule
+2025-04-18 00:13:17,721 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x151ec1424750>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:13:17,722 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x151ec1445a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:13:17,722 - INFO - Loaded 0 performers and 0 scenes
+2025-04-18 00:13:17,722 - INFO - Sending information to Discord...
+2025-04-18 00:13:17,722 - INFO - Sending statistics...
+2025-04-18 00:13:17,722 - INFO - Preparing to send statistics
+2025-04-18 00:13:17,722 - INFO - Generating all statistics...
+2025-04-18 00:13:17,722 - INFO - Loading data from stash client...
+2025-04-18 00:13:17,723 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x151ec144a950>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:13:17,724 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x151ec1446790>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:13:17,724 - INFO - Data loaded: 0 performers, 0 scenes
+2025-04-18 00:13:17,724 - INFO - Cup size statistics collected.
+2025-04-18 00:13:17,724 - INFO - Loading data from stash client...
+2025-04-18 00:13:17,725 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x151ec1416ed0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:13:17,725 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x151ec1427e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:13:17,725 - INFO - Data loaded: 0 performers, 0 scenes
+2025-04-18 00:13:17,725 - INFO - O-counter statistics collected.
+2025-04-18 00:13:17,726 - INFO - Favorite o-counter statistics collected.
+2025-04-18 00:13:17,726 - INFO - Rating o-counter correlation collected.
+2025-04-18 00:13:17,726 - INFO - Cup size DataFrame is empty. Creating empty ratio DataFrame.
+2025-04-18 00:13:17,726 - INFO - Ratio DataFrame is empty. Returning empty stats.
+2025-04-18 00:13:17,726 - INFO - Ratio statistics collected.
+2025-04-18 00:13:17,726 - INFO - Cup size o-counter correlation collected.
+2025-04-18 00:13:17,726 - INFO - Top o-counter performers collected.
+2025-04-18 00:13:17,726 - INFO - Loading data from stash client...
+2025-04-18 00:13:17,727 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x151ec1458850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:13:17,727 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x151ec22dbd50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:13:17,727 - INFO - Data loaded: 0 performers, 0 scenes
+2025-04-18 00:13:17,727 - INFO - Preference profile collected.
+2025-04-18 00:13:17,728 - INFO - Sister size statistics collected.
+2025-04-18 00:13:17,728 - INFO - Volume statistics collected.
+2025-04-18 00:13:17,728 - INFO - All statistics collected.
+2025-04-18 00:13:23,048 - INFO - Successfully sent chunk 1 to Discord
+2025-04-18 00:16:10,255 - INFO - Initialized CupSizeModule
+2025-04-18 00:16:10,255 - INFO - Successfully initialized CupSizeModule
+2025-04-18 00:16:10,256 - INFO - Initialized OCounterModule
+2025-04-18 00:16:10,256 - INFO - Successfully initialized OCounterModule
+2025-04-18 00:16:10,256 - INFO - Initialized RatioModule
+2025-04-18 00:16:10,256 - INFO - Successfully initialized RatioModule
+2025-04-18 00:16:10,256 - INFO - Initialized SisterSizeModule
+2025-04-18 00:16:10,256 - INFO - Successfully initialized SisterSizeModule
+2025-04-18 00:16:10,256 - INFO - Initialized PreferenceModule
+2025-04-18 00:16:10,256 - INFO - Successfully initialized PreferenceModule
+2025-04-18 00:16:10,258 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x147fa86bfbd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:16:10,259 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x147fa8742590>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:16:10,259 - INFO - Loaded 0 performers and 0 scenes
+2025-04-18 00:16:10,259 - INFO - Sending information to Discord...
+2025-04-18 00:16:10,259 - INFO - Sending statistics...
+2025-04-18 00:16:10,260 - INFO - Preparing to send statistics
+2025-04-18 00:16:10,260 - INFO - Generating all statistics...
+2025-04-18 00:16:10,260 - INFO - Loading data from stash client...
+2025-04-18 00:16:10,261 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x147fa8753510>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:16:10,262 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x147fa8753710>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:16:10,262 - INFO - Data loaded: 0 performers, 0 scenes
+2025-04-18 00:16:10,262 - INFO - Cup size statistics collected.
+2025-04-18 00:16:10,262 - INFO - Loading data from stash client...
+2025-04-18 00:16:10,263 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x147fa8743410>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:16:10,263 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x147fa871b190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:16:10,263 - INFO - Data loaded: 0 performers, 0 scenes
+2025-04-18 00:16:10,264 - INFO - O-counter statistics collected.
+2025-04-18 00:16:10,264 - INFO - Favorite o-counter statistics collected.
+2025-04-18 00:16:10,264 - INFO - Rating o-counter correlation collected.
+2025-04-18 00:16:10,264 - INFO - Cup size DataFrame is empty. Creating empty ratio DataFrame.
+2025-04-18 00:16:10,264 - INFO - Ratio DataFrame is empty. Returning empty stats.
+2025-04-18 00:16:10,264 - INFO - Ratio statistics collected.
+2025-04-18 00:16:10,264 - INFO - Cup size o-counter correlation collected.
+2025-04-18 00:16:10,265 - INFO - Top o-counter performers collected.
+2025-04-18 00:16:10,265 - INFO - Loading data from stash client...
+2025-04-18 00:16:10,265 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x147fa8761010>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:16:10,266 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x147fa8c12510>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:16:10,266 - INFO - Data loaded: 0 performers, 0 scenes
+2025-04-18 00:16:10,266 - INFO - Preference profile collected.
+2025-04-18 00:16:10,267 - INFO - Sister size statistics collected.
+2025-04-18 00:16:10,267 - INFO - Volume statistics collected.
+2025-04-18 00:16:10,267 - INFO - All statistics collected.
+2025-04-18 00:16:15,529 - INFO - Successfully sent chunk 1 to Discord
+2025-04-18 00:17:59,472 - INFO - Initialized CupSizeModule
+2025-04-18 00:17:59,473 - INFO - Successfully initialized CupSizeModule
+2025-04-18 00:17:59,473 - INFO - Initialized OCounterModule
+2025-04-18 00:17:59,473 - INFO - Successfully initialized OCounterModule
+2025-04-18 00:17:59,473 - INFO - Initialized RatioModule
+2025-04-18 00:17:59,473 - INFO - Successfully initialized RatioModule
+2025-04-18 00:17:59,473 - INFO - Initialized SisterSizeModule
+2025-04-18 00:17:59,473 - INFO - Successfully initialized SisterSizeModule
+2025-04-18 00:17:59,473 - INFO - Initialized PreferenceModule
+2025-04-18 00:17:59,473 - INFO - Successfully initialized PreferenceModule
+2025-04-18 00:17:59,475 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x15470194aa50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:17:59,476 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1547005cde50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:17:59,476 - INFO - Loaded 0 performers and 0 scenes
+2025-04-18 00:17:59,476 - INFO - Sending information to Discord...
+2025-04-18 00:17:59,476 - INFO - Sending statistics...
+2025-04-18 00:17:59,476 - INFO - Preparing to send statistics
+2025-04-18 00:17:59,476 - INFO - Generating all statistics...
+2025-04-18 00:17:59,476 - INFO - Loading data from stash client...
+2025-04-18 00:17:59,477 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1547005ded10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:17:59,478 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1547005deed0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:17:59,478 - INFO - Data loaded: 0 performers, 0 scenes
+2025-04-18 00:17:59,478 - INFO - Cup size statistics collected.
+2025-04-18 00:17:59,478 - INFO - Loading data from stash client...
+2025-04-18 00:17:59,479 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1547005cecd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:17:59,479 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x154701f8ddd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:17:59,479 - INFO - Data loaded: 0 performers, 0 scenes
+2025-04-18 00:17:59,480 - INFO - O-counter statistics collected.
+2025-04-18 00:17:59,480 - INFO - Favorite o-counter statistics collected.
+2025-04-18 00:17:59,480 - INFO - Rating o-counter correlation collected.
+2025-04-18 00:17:59,480 - INFO - Cup size DataFrame is empty. Creating empty ratio DataFrame.
+2025-04-18 00:17:59,480 - INFO - Ratio DataFrame is empty. Returning empty stats.
+2025-04-18 00:17:59,480 - INFO - Ratio statistics collected.
+2025-04-18 00:17:59,480 - INFO - Cup size o-counter correlation collected.
+2025-04-18 00:17:59,480 - INFO - Top o-counter performers collected.
+2025-04-18 00:17:59,480 - INFO - Loading data from stash client...
+2025-04-18 00:17:59,481 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1547005ecad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:17:59,481 - ERROR - GraphQL request error: HTTPConnectionPool(host='192.168.1.2', port=9999): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1547019623d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-18 00:17:59,481 - INFO - Data loaded: 0 performers, 0 scenes
+2025-04-18 00:17:59,482 - INFO - Preference profile collected.
+2025-04-18 00:17:59,482 - INFO - Sister size statistics collected.
+2025-04-18 00:17:59,482 - INFO - Volume statistics collected.
+2025-04-18 00:17:59,482 - INFO - All statistics collected.
+2025-04-18 00:18:04,837 - INFO - Successfully sent chunk 1 to Discord
+2025-04-18 00:18:07,853 - INFO - Initialized CupSizeModule
+2025-04-18 00:18:07,853 - INFO - Successfully initialized CupSizeModule
+2025-04-18 00:18:07,853 - INFO - Initialized OCounterModule
+2025-04-18 00:18:07,853 - INFO - Successfully initialized OCounterModule
+2025-04-18 00:18:07,853 - INFO - Initialized RatioModule
+2025-04-18 00:18:07,853 - INFO - Successfully initialized RatioModule
+2025-04-18 00:18:07,853 - INFO - Initialized SisterSizeModule
+2025-04-18 00:18:07,853 - INFO - Successfully initialized SisterSizeModule
+2025-04-18 00:18:07,853 - INFO - Initialized PreferenceModule
+2025-04-18 00:18:07,853 - INFO - Successfully initialized PreferenceModule
+2025-04-18 00:18:08,258 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:18:10,502 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:18:10,502 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-18 00:18:10,502 - INFO - Sending information to Discord...
+2025-04-18 00:18:10,502 - INFO - Sending statistics...
+2025-04-18 00:18:10,502 - INFO - Preparing to send statistics
+2025-04-18 00:18:10,503 - INFO - Generating all statistics...
+2025-04-18 00:18:10,503 - INFO - Loading data from stash client...
+2025-04-18 00:18:10,909 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:18:13,337 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:18:13,337 - INFO - Data loaded: 2560 performers, 5645 scenes
+2025-04-18 00:18:13,351 - INFO - Cup size statistics collected.
+2025-04-18 00:18:13,351 - INFO - Loading data from stash client...
+2025-04-18 00:18:13,687 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:18:16,008 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:18:16,008 - INFO - Data loaded: 2560 performers, 5645 scenes
+2025-04-18 00:18:16,039 - INFO - O-counter statistics collected.
+2025-04-18 00:18:16,040 - INFO - Favorite o-counter statistics collected.
+2025-04-18 00:18:16,044 - INFO - Rating o-counter correlation collected.
+2025-04-18 00:18:16,055 - INFO - Ratio statistics collected.
+2025-04-18 00:18:16,082 - INFO - Cup size o-counter correlation collected.
+2025-04-18 00:18:16,083 - INFO - Top o-counter performers collected.
+2025-04-18 00:18:16,083 - INFO - Loading data from stash client...
+2025-04-18 00:18:16,407 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:18:18,824 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:18:18,824 - INFO - Data loaded: 2560 performers, 5645 scenes
+2025-04-18 00:18:18,879 - INFO - Preference profile collected.
+2025-04-18 00:18:19,102 - INFO - Sister size statistics collected.
+2025-04-18 00:18:19,131 - INFO - Volume statistics collected.
+2025-04-18 00:18:19,131 - INFO - All statistics collected.
+2025-04-18 00:18:24,411 - INFO - Successfully sent chunk 1 to Discord
+2025-04-18 00:18:29,642 - INFO - Successfully sent chunk 2 to Discord
+2025-04-18 00:23:13,070 - INFO - Initialized CupSizeModule
+2025-04-18 00:23:13,070 - INFO - Successfully initialized CupSizeModule
+2025-04-18 00:23:13,070 - INFO - Initialized OCounterModule
+2025-04-18 00:23:13,070 - INFO - Successfully initialized OCounterModule
+2025-04-18 00:23:13,070 - INFO - Initialized RatioModule
+2025-04-18 00:23:13,070 - INFO - Successfully initialized RatioModule
+2025-04-18 00:23:13,071 - INFO - Initialized SisterSizeModule
+2025-04-18 00:23:13,071 - INFO - Successfully initialized SisterSizeModule
+2025-04-18 00:23:13,071 - INFO - Initialized PreferenceModule
+2025-04-18 00:23:13,071 - INFO - Successfully initialized PreferenceModule
+2025-04-18 00:23:13,417 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:23:15,777 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:23:15,777 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-18 00:23:15,777 - INFO - Sending information to Discord...
+2025-04-18 00:23:15,777 - INFO - Sending statistics...
+2025-04-18 00:23:15,777 - INFO - Preparing to send statistics
+2025-04-18 00:23:15,777 - INFO - Generating all statistics...
+2025-04-18 00:23:15,778 - INFO - Loading data from stash client...
+2025-04-18 00:23:16,157 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:23:18,454 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:23:18,455 - INFO - Data loaded: 2560 performers, 5645 scenes
+2025-04-18 00:23:18,469 - INFO - Cup size statistics collected.
+2025-04-18 00:23:18,469 - INFO - Loading data from stash client...
+2025-04-18 00:23:18,834 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:23:21,169 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:23:21,169 - INFO - Data loaded: 2560 performers, 5645 scenes
+2025-04-18 00:23:21,203 - INFO - O-counter statistics collected.
+2025-04-18 00:23:21,204 - INFO - Favorite o-counter statistics collected.
+2025-04-18 00:23:21,208 - INFO - Rating o-counter correlation collected.
+2025-04-18 00:23:21,221 - INFO - Ratio statistics collected.
+2025-04-18 00:23:21,252 - INFO - Cup size o-counter correlation collected.
+2025-04-18 00:23:21,253 - INFO - Top o-counter performers collected.
+2025-04-18 00:23:21,253 - INFO - Loading data from stash client...
+2025-04-18 00:23:21,677 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:23:24,375 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:23:24,375 - INFO - Data loaded: 2560 performers, 5645 scenes
+2025-04-18 00:23:24,418 - INFO - Preference profile collected.
+2025-04-18 00:23:24,588 - INFO - Sister size statistics collected.
+2025-04-18 00:23:24,612 - INFO - Volume statistics collected.
+2025-04-18 00:23:24,612 - INFO - All statistics collected.
+2025-04-18 00:23:30,041 - INFO - Successfully sent chunk 1 to Discord
+2025-04-18 00:23:35,269 - INFO - Successfully sent chunk 2 to Discord
+2025-04-18 00:31:30,456 - INFO - Initialized CupSizeModule
+2025-04-18 00:31:30,456 - INFO - Successfully initialized CupSizeModule
+2025-04-18 00:31:30,456 - INFO - Initialized OCounterModule
+2025-04-18 00:31:30,456 - INFO - Successfully initialized OCounterModule
+2025-04-18 00:31:30,456 - INFO - Initialized RatioModule
+2025-04-18 00:31:30,456 - INFO - Successfully initialized RatioModule
+2025-04-18 00:31:30,456 - INFO - Initialized SisterSizeModule
+2025-04-18 00:31:30,456 - INFO - Successfully initialized SisterSizeModule
+2025-04-18 00:31:30,456 - INFO - Initialized PreferenceModule
+2025-04-18 00:31:30,456 - INFO - Successfully initialized PreferenceModule
+2025-04-18 00:31:30,805 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:31:33,007 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:31:33,007 - INFO - Loaded 2560 performers and 5645 scenes
+2025-04-18 00:31:33,007 - INFO - Sending information to Discord...
+2025-04-18 00:31:33,007 - INFO - Sending statistics...
+2025-04-18 00:31:33,008 - INFO - Preparing to send statistics
+2025-04-18 00:31:33,008 - INFO - Generating all statistics...
+2025-04-18 00:31:33,008 - INFO - Loading data from stash client...
+2025-04-18 00:31:33,382 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:31:35,733 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:31:35,734 - INFO - Data loaded: 2560 performers, 5645 scenes
+2025-04-18 00:31:35,750 - INFO - Cup size statistics collected.
+2025-04-18 00:31:35,750 - INFO - Loading data from stash client...
+2025-04-18 00:31:36,203 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:31:38,443 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:31:38,443 - INFO - Data loaded: 2560 performers, 5645 scenes
+2025-04-18 00:31:38,474 - INFO - O-counter statistics collected.
+2025-04-18 00:31:38,474 - INFO - Favorite o-counter statistics collected.
+2025-04-18 00:31:38,478 - INFO - Rating o-counter correlation collected.
+2025-04-18 00:31:38,489 - INFO - Ratio statistics collected.
+2025-04-18 00:31:38,517 - INFO - Cup size o-counter correlation collected.
+2025-04-18 00:31:38,517 - INFO - Top o-counter performers collected.
+2025-04-18 00:31:38,517 - INFO - Loading data from stash client...
+2025-04-18 00:31:38,819 - INFO - Retrieved 2560 performers out of 2560 total
+2025-04-18 00:31:41,174 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:31:41,174 - INFO - Data loaded: 2560 performers, 5645 scenes
+2025-04-18 00:31:41,215 - INFO - Preference profile collected.
+2025-04-18 00:31:41,364 - INFO - Sister size statistics collected.
+2025-04-18 00:31:41,392 - INFO - Volume statistics collected.
+2025-04-18 00:31:41,392 - INFO - All statistics collected.
+2025-04-18 00:31:46,651 - INFO - Successfully sent chunk 1 to Discord
+2025-04-18 00:31:52,045 - INFO - Successfully sent chunk 2 to Discord
+2025-04-18 00:31:57,320 - INFO - Successfully sent chunk 3 to Discord
+2025-04-18 00:40:13,319 - INFO - Initialized CupSizeModule
+2025-04-18 00:40:13,319 - INFO - Successfully initialized CupSizeModule
+2025-04-18 00:40:13,319 - INFO - Initialized OCounterModule
+2025-04-18 00:40:13,319 - INFO - Successfully initialized OCounterModule
+2025-04-18 00:40:13,319 - INFO - Initialized RatioModule
+2025-04-18 00:40:13,319 - INFO - Successfully initialized RatioModule
+2025-04-18 00:40:13,319 - INFO - Initialized SisterSizeModule
+2025-04-18 00:40:13,319 - INFO - Successfully initialized SisterSizeModule
+2025-04-18 00:40:13,319 - INFO - Initialized PreferenceModule
+2025-04-18 00:40:13,319 - INFO - Successfully initialized PreferenceModule
+2025-04-18 00:40:13,602 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:40:16,153 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:40:16,154 - INFO - Loaded 2556 performers and 5645 scenes
+2025-04-18 00:40:16,154 - INFO - Sending information to Discord...
+2025-04-18 00:40:16,154 - INFO - Sending statistics...
+2025-04-18 00:40:16,155 - INFO - Preparing to send statistics
+2025-04-18 00:40:16,155 - INFO - Generating all statistics...
+2025-04-18 00:40:16,155 - INFO - Loading data from stash client...
+2025-04-18 00:40:16,633 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:40:19,319 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:40:19,319 - INFO - Data loaded: 2556 performers, 5645 scenes
+2025-04-18 00:40:19,334 - INFO - Cup size statistics collected.
+2025-04-18 00:40:19,335 - INFO - Loading data from stash client...
+2025-04-18 00:40:19,664 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:40:22,314 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:40:22,314 - INFO - Data loaded: 2556 performers, 5645 scenes
+2025-04-18 00:40:22,357 - INFO - O-counter statistics collected.
+2025-04-18 00:40:22,358 - INFO - Favorite o-counter statistics collected.
+2025-04-18 00:40:22,362 - INFO - Rating o-counter correlation collected.
+2025-04-18 00:40:22,374 - INFO - Ratio statistics collected.
+2025-04-18 00:40:22,406 - INFO - Cup size o-counter correlation collected.
+2025-04-18 00:40:22,407 - INFO - Top o-counter performers collected.
+2025-04-18 00:40:22,407 - INFO - Loading data from stash client...
+2025-04-18 00:40:22,822 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:40:25,383 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:40:25,383 - INFO - Data loaded: 2556 performers, 5645 scenes
+2025-04-18 00:40:25,429 - INFO - Preference profile collected.
+2025-04-18 00:40:25,586 - INFO - Sister size statistics collected.
+2025-04-18 00:40:25,611 - INFO - Volume statistics collected.
+2025-04-18 00:40:25,611 - INFO - All statistics collected.
+2025-04-18 00:40:30,922 - INFO - Successfully sent chunk 1 to Discord
+2025-04-18 00:40:36,221 - INFO - Successfully sent chunk 2 to Discord
+2025-04-18 00:41:18,701 - INFO - Initialized CupSizeModule
+2025-04-18 00:41:18,702 - INFO - Successfully initialized CupSizeModule
+2025-04-18 00:41:18,702 - INFO - Initialized OCounterModule
+2025-04-18 00:41:18,702 - INFO - Successfully initialized OCounterModule
+2025-04-18 00:41:18,702 - INFO - Initialized RatioModule
+2025-04-18 00:41:18,702 - INFO - Successfully initialized RatioModule
+2025-04-18 00:41:18,702 - INFO - Initialized SisterSizeModule
+2025-04-18 00:41:18,702 - INFO - Successfully initialized SisterSizeModule
+2025-04-18 00:41:18,702 - INFO - Initialized PreferenceModule
+2025-04-18 00:41:18,702 - INFO - Successfully initialized PreferenceModule
+2025-04-18 00:41:19,034 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:41:21,038 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:41:21,038 - INFO - Loaded 2556 performers and 5645 scenes
+2025-04-18 00:41:21,038 - INFO - Generating statistics...
+2025-04-18 00:41:21,039 - INFO - Generating all statistics...
+2025-04-18 00:41:21,039 - INFO - Loading data from stash client...
+2025-04-18 00:41:21,361 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:41:23,442 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:41:23,442 - INFO - Data loaded: 2556 performers, 5645 scenes
+2025-04-18 00:41:23,468 - INFO - Cup size statistics collected.
+2025-04-18 00:41:23,468 - INFO - Loading data from stash client...
+2025-04-18 00:41:23,785 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:41:26,036 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:41:26,036 - INFO - Data loaded: 2556 performers, 5645 scenes
+2025-04-18 00:41:26,068 - INFO - O-counter statistics collected.
+2025-04-18 00:41:26,069 - INFO - Favorite o-counter statistics collected.
+2025-04-18 00:41:26,073 - INFO - Rating o-counter correlation collected.
+2025-04-18 00:41:26,085 - INFO - Ratio statistics collected.
+2025-04-18 00:41:26,114 - INFO - Cup size o-counter correlation collected.
+2025-04-18 00:41:26,115 - INFO - Top o-counter performers collected.
+2025-04-18 00:41:26,115 - INFO - Loading data from stash client...
+2025-04-18 00:41:26,391 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:41:28,628 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:41:28,628 - INFO - Data loaded: 2556 performers, 5645 scenes
+2025-04-18 00:41:28,669 - INFO - Preference profile collected.
+2025-04-18 00:41:28,833 - INFO - Sister size statistics collected.
+2025-04-18 00:41:28,857 - INFO - Volume statistics collected.
+2025-04-18 00:41:28,857 - INFO - All statistics collected.
+2025-04-18 00:41:29,103 - INFO - Statistics saved to stash_stats.json
+2025-04-18 00:41:29,103 - INFO - 
+Cup Size Distribution:
+2025-04-18 00:41:29,103 - INFO -   75B: 207
+2025-04-18 00:41:29,103 - INFO -   75D: 200
+2025-04-18 00:41:29,103 - INFO -   75C: 189
+2025-04-18 00:41:29,103 - INFO -   70B: 158
+2025-04-18 00:41:29,104 - INFO -   75E: 147
+2025-04-18 00:43:36,524 - INFO - Initialized CupSizeModule
+2025-04-18 00:43:36,524 - INFO - Successfully initialized CupSizeModule
+2025-04-18 00:43:36,524 - INFO - Initialized OCounterModule
+2025-04-18 00:43:36,524 - INFO - Successfully initialized OCounterModule
+2025-04-18 00:43:36,524 - INFO - Initialized RatioModule
+2025-04-18 00:43:36,524 - INFO - Successfully initialized RatioModule
+2025-04-18 00:43:36,524 - INFO - Initialized SisterSizeModule
+2025-04-18 00:43:36,524 - INFO - Successfully initialized SisterSizeModule
+2025-04-18 00:43:36,525 - INFO - Initialized PreferenceModule
+2025-04-18 00:43:36,525 - INFO - Successfully initialized PreferenceModule
+2025-04-18 00:43:36,877 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:43:39,159 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:43:39,159 - INFO - Loaded 2556 performers and 5645 scenes
+2025-04-18 00:43:39,159 - INFO - Generating statistics...
+2025-04-18 00:43:39,159 - INFO - Generating all statistics...
+2025-04-18 00:43:39,159 - INFO - Loading data from stash client...
+2025-04-18 00:43:39,471 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:43:41,596 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:43:41,596 - INFO - Data loaded: 2556 performers, 5645 scenes
+2025-04-18 00:43:41,610 - INFO - Cup size statistics collected.
+2025-04-18 00:43:41,610 - INFO - Loading data from stash client...
+2025-04-18 00:43:41,878 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:43:43,981 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:43:43,982 - INFO - Data loaded: 2556 performers, 5645 scenes
+2025-04-18 00:43:44,013 - INFO - O-counter statistics collected.
+2025-04-18 00:43:44,013 - INFO - Favorite o-counter statistics collected.
+2025-04-18 00:43:44,017 - INFO - Rating o-counter correlation collected.
+2025-04-18 00:43:44,028 - INFO - Ratio statistics collected.
+2025-04-18 00:43:44,056 - INFO - Cup size o-counter correlation collected.
+2025-04-18 00:43:44,057 - INFO - Top o-counter performers collected.
+2025-04-18 00:43:44,057 - INFO - Loading data from stash client...
+2025-04-18 00:43:44,360 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:43:46,475 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:43:46,475 - INFO - Data loaded: 2556 performers, 5645 scenes
+2025-04-18 00:43:46,516 - INFO - Preference profile collected.
+2025-04-18 00:43:46,664 - INFO - Sister size statistics collected.
+2025-04-18 00:43:46,688 - INFO - Volume statistics collected.
+2025-04-18 00:43:46,688 - INFO - All statistics collected.
+2025-04-18 00:43:46,926 - INFO - Statistics saved to stash_stats.json
+2025-04-18 00:43:46,926 - INFO - 
+Cup Size Distribution:
+2025-04-18 00:43:46,926 - INFO -   75B: 207
+2025-04-18 00:43:46,926 - INFO -   75D: 200
+2025-04-18 00:43:46,927 - INFO -   75C: 189
+2025-04-18 00:43:46,927 - INFO -   70B: 158
+2025-04-18 00:43:46,927 - INFO -   75E: 147
+2025-04-18 00:44:03,821 - INFO - Initialized CupSizeModule
+2025-04-18 00:44:03,821 - INFO - Successfully initialized CupSizeModule
+2025-04-18 00:44:03,822 - INFO - Initialized OCounterModule
+2025-04-18 00:44:03,822 - INFO - Successfully initialized OCounterModule
+2025-04-18 00:44:03,822 - INFO - Initialized RatioModule
+2025-04-18 00:44:03,822 - INFO - Successfully initialized RatioModule
+2025-04-18 00:44:03,822 - INFO - Initialized SisterSizeModule
+2025-04-18 00:44:03,822 - INFO - Successfully initialized SisterSizeModule
+2025-04-18 00:44:03,822 - INFO - Initialized PreferenceModule
+2025-04-18 00:44:03,822 - INFO - Successfully initialized PreferenceModule
+2025-04-18 00:44:04,104 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:44:06,140 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:44:06,140 - INFO - Loaded 2556 performers and 5645 scenes
+2025-04-18 00:44:06,140 - INFO - Sending information to Discord...
+2025-04-18 00:44:06,140 - INFO - Sending statistics...
+2025-04-18 00:44:06,141 - INFO - Preparing to send statistics
+2025-04-18 00:44:06,141 - INFO - Generating all statistics...
+2025-04-18 00:44:06,141 - INFO - Loading data from stash client...
+2025-04-18 00:44:06,481 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:44:08,585 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:44:08,586 - INFO - Data loaded: 2556 performers, 5645 scenes
+2025-04-18 00:44:08,610 - INFO - Cup size statistics collected.
+2025-04-18 00:44:08,610 - INFO - Loading data from stash client...
+2025-04-18 00:44:08,998 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:44:11,358 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:44:11,358 - INFO - Data loaded: 2556 performers, 5645 scenes
+2025-04-18 00:44:11,389 - INFO - O-counter statistics collected.
+2025-04-18 00:44:11,390 - INFO - Favorite o-counter statistics collected.
+2025-04-18 00:44:11,394 - INFO - Rating o-counter correlation collected.
+2025-04-18 00:44:11,405 - INFO - Ratio statistics collected.
+2025-04-18 00:44:11,432 - INFO - Cup size o-counter correlation collected.
+2025-04-18 00:44:11,433 - INFO - Top o-counter performers collected.
+2025-04-18 00:44:11,433 - INFO - Loading data from stash client...
+2025-04-18 00:44:11,710 - INFO - Retrieved 2556 performers out of 2556 total
+2025-04-18 00:44:13,845 - INFO - Retrieved 5645 scenes out of 5645 total
+2025-04-18 00:44:13,845 - INFO - Data loaded: 2556 performers, 5645 scenes
+2025-04-18 00:44:13,887 - INFO - Preference profile collected.
+2025-04-18 00:44:14,038 - INFO - Sister size statistics collected.
+2025-04-18 00:44:14,062 - INFO - Volume statistics collected.
+2025-04-18 00:44:14,062 - INFO - All statistics collected.
+2025-04-18 00:44:19,326 - INFO - Successfully sent chunk 1 to Discord
+2025-04-18 00:44:24,573 - INFO - Successfully sent chunk 2 to Discord
