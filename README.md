@@ -3,6 +3,7 @@
 Eine Sammlung von Tools zur Analyse und Verwaltung von Stash-Daten mit Fokus auf Performer-Statistiken, Empfehlungen und Integration.
 
 ## Funktionen
+dd
 
 - **Statistik-Modul**: Analysiert Cup-Größen, O-Counter und verschiedene Verhältnisse
 - **Empfehlungs-Modul**: Schlägt ähnliche Performer und Szenen basierend auf Ihren Vorlieben vor
