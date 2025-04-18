@@ -583,3 +583,144 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+import os
+import json
+import logging
+import configparser
+import requests
+from pathlib import Path
+
+logger = logging.getLogger(__name__)
+
+class StashClient:
+    """Client für die Kommunikation mit der Stash API"""
+    
+    def __init__(self, config_path=None):
+        """Initialisiert den Stash-Client mit Konfiguration"""
+        # Standard-Konfigurationspfad
+        if config_path is None:
+            config_path = Path("config/configuration.ini")
+        
+        # Standardwerte aus dem globalen CONFIG-Dictionary verwenden
+        self.url = CONFIG.get("stash_url", "http://localhost:9999")
+        self.api_key = CONFIG.get("api_key", "")
+        
+        # Lade Konfiguration, falls vorhanden
+        if config_path.exists():
+            try:
+                config = configparser.ConfigParser()
+                config.read(config_path)
+                
+                if 'stash' in config:
+                    self.url = config.get('stash', 'url', fallback=self.url)
+                    self.api_key = config.get('stash', 'api_key', fallback=self.api_key)
+                    
+                logger.info(f"Stash-Konfiguration geladen von {config_path}")
+            except Exception as e:
+                logger.error(f"Fehler beim Laden der Stash-Konfiguration: {e}")
+        else:
+            logger.warning(f"Keine Konfigurationsdatei gefunden unter {config_path}. Verwende Standardwerte.")
+            
+            # Erstelle Konfigurationsdatei mit Standardwerten
+            try:
+                config_path.parent.mkdir(parents=True, exist_ok=True)
+                
+                config = configparser.ConfigParser()
+                config['stash'] = {
+                    'url': self.url,
+                    'api_key': self.api_key
+                }
+                
+                with open(config_path, 'w') as f:
+                    config.write(f)
+                    
+                logger.info(f"Standardkonfiguration erstellt unter {config_path}")
+            except Exception as e:
+                logger.error(f"Fehler beim Erstellen der Standardkonfiguration: {e}")
+    
+    def call_graphql(self, query, variables=None):
+        """Führt eine GraphQL-Anfrage an die Stash API aus"""
+        headers = {
+            'Content-Type': 'application/json'
+        }
+        
+        # Füge API-Key hinzu, falls vorhanden
+        if self.api_key:
+            headers['ApiKey'] = self.api_key
+        
+        try:
+            response = requests.post(
+                f"{self.url}/graphql",
+                json={'query': query, 'variables': variables},
+                headers=headers
+            )
+            
+            if response.status_code == 200:
+                return response.json()
+            else:
+                logger.error(f"API-Fehler: {response.status_code} - {response.text}")
+                return {'data': None, 'errors': [{'message': f"HTTP-Fehler: {response.status_code}"}]}
+                
+        except Exception as e:
+            logger.error(f"Fehler bei API-Anfrage: {e}")
+            return {'data': None, 'errors': [{'message': str(e)}]}
+    
+    def get_performers(self):
+        """Holt alle Performer-Daten von Stash"""
+        query = """
+        query {
+          allPerformers {
+            id
+            name
+            measurements
+            height_cm
+            weight
+            favorite
+            rating100
+            scene_count
+            o_counter
+            tags {
+              id
+              name
+            }
+          }
+        }
+        """
+        
+        result = self.call_graphql(query)
+        
+        if result and 'data' in result and 'allPerformers' in result['data']:
+            return result['data']['allPerformers']
+        else:
+            logger.error("Keine Performer-Daten erhalten")
+            return []
+    
+    def get_scenes(self):
+        """Holt alle Szenen-Daten von Stash"""
+        query = """
+        query {
+          allScenes {
+            id
+            title
+            o_counter
+            performers {
+              id
+              name
+              favorite
+            }
+            tags {
+              id
+              name
+            }
+          }
+        }
+        """
+        
+        result = self.call_graphql(query)
+        
+        if result and 'data' in result and 'allScenes' in result['data']:
+            return result['data']['allScenes']
+        else:
+            logger.error("Keine Szenen-Daten erhalten")
+            return []
