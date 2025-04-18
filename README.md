@@ -1,276 +1,120 @@
 # Stash API Tools
 
-Eine Sammlung von Tools zur Analyse und Verwaltung von Stash-Daten mit Fokus auf Performer-Statistiken, Empfehlungen und Integration.
-
-## Funktionen
-
-- **Statistik-Modul**: Analysiert Cup-Größen, O-Counter und verschiedene Verhältnisse
-- **Empfehlungs-Modul**: Schlägt ähnliche Performer und Szenen basierend auf Ihren Vorlieben vor
-- **Dashboard-Modul**: Interaktives Web-Dashboard zur Visualisierung von Statistiken und Empfehlungen
-- **Updater-Modul**: Aktualisiert Performer-Daten mit Cup-Größen und Verhältnis-Informationen
-- **Discord-Modul**: Sendet Statistiken und Empfehlungen an Discord über Webhooks
-
-## Installation
-
-### Voraussetzungen
-
-- Python 3.7 oder höher
-- Stash-Server mit GraphQL API
-- Pip (Python-Paketmanager)
-
-### Abhängigkeiten installieren
-
-```bash
-pip install -e .
-```
-
-### Konfiguration
-
-1. Klonen Sie das Repository oder laden Sie die Dateien herunter
-2. Bearbeiten Sie die Datei `config/configuration.ini` und geben Sie Ihre Stash-API-Informationen und Discord-Webhook-URL ein
-
-## Verwendung
-
-### Statistiken generieren
-
-```bash
-python main.py stats
-python main.py stats --output stats.json
-```
-
-### Empfehlungen generieren
-
-```bash
-python main.py recommend --type performers
-python main.py recommend --type scenes
-python main.py recommend --type all
-```
-
-### Dashboard starten
-
-```bash
-python main.py dashboard --port 8050
-```
-
-Öffnen Sie dann einen Browser und navigieren Sie zu `http://localhost:8050`
-
-### Performer-Daten aktualisieren
-
-```bash
-python main.py update --type cup-sizes
-python main.py update --type ratios
-python main.py update --type all
-```
-
-### Send Recommendations to Discord
-
-```bash
-python main.py discord
-```
-
-This command will:
-- Generate performer recommendations
-- Generate scene recommendations
-- Send the recommendations to the configured Discord webhook
-- Print recommendations to the console
-
-## Module
-
-### Statistik-Modul
-
-Analysiert Ihre Stash-Daten und generiert Statistiken zu:
-- Cup-Größen-Verteilung
-- O-Counter nach Cup-Größe
-- Verhältnisse wie Cup-to-BMI, Cup-to-Height, Cup-to-Weight
-
-### Empfehlungs-Modul
-
-- **Performer-Empfehlungen**: Findet ähnliche Performer basierend auf Cup-Größe, Körpermaßen und anderen Faktoren
-- **Szenen-Empfehlungen**: Schlägt Szenen vor, die ähnliche Tags wie Ihre favorisierten Szenen haben
-
-### Dashboard-Modul
-
-# Stash Statistics Dashboard
-
-This interactive dashboard visualizes various statistics from your Stash data, focusing on performer metrics, cup sizes, sister sizes, o-counter values, and their correlations.
+A collection of tools for analyzing and managing Stash data with a focus on performer statistics, recommendations, and integration.
 
 ## Features
 
-The dashboard includes the following features:
+- **Statistics Module**: Analyzes cup sizes, O-counter, and various ratios
+- **Recommendation Module**: Suggests similar performers and scenes based on your preferences
+- **Dashboard Module**: Interactive web dashboard for visualizing statistics and recommendations
+- **Updater Module**: Updates performer data with cup sizes and ratio information
+- **Discord Module**: Sends statistics and recommendations to Discord via webhooks
+- **Telegram Module**: Sends statistics and recommendations to Telegram
 
-- **Cup Size Statistics**: Visualize cup size distribution, cup size by band size, and detailed cup size statistics
-- **O-Counter Statistics**: See o-counter by cup size, top performers by o-counter, favorite vs non-favorite o-counter comparison, and o-counter distribution
-- **Ratio Statistics**: Explore cup to BMI ratio, cup to height ratio, BMI distribution by cup size, and height distribution by cup size
-- **Sister Size Statistics**: View sister size distribution, o-counter by sister size, volume distribution, and o-counter by volume category
-- **Correlation Analysis**: Analyze correlations between o-counter & rating, cup size & BMI, cup size & height, and cup size & weight
-- **Preference Analysis**: Examine performer clusters, preference profiles, and top performers by cluster
+## Installation
 
-## Requirements
+### Prerequisites
 
 - Python 3.7 or higher
 - Stash server with GraphQL API
-- Python packages: dash, plotly, pandas, numpy
+- Pip (Python package manager)
 
-## Installation
-
-1. Clone the repository or download the files
-2. Install the required dependencies:
+### Installing Dependencies
 
 ```bash
 pip install -e .
-```
+Configuration
 
-## Usage
+Clone the repository or download the files
+Edit the config/configuration.ini file with your Stash API information and webhook URLs
 
-1. Edit the `config/configuration.ini` file to set your Stash API information:
+Usage
+Statistics
+Generate and view statistics about your Stash data:
+bashpython main.py stats
+python main.py stats --output custom_stats.json
+Recommendations
+Generate performer and scene recommendations:
+bashpython main.py recommend --type performers
+python main.py recommend --type scenes
+python main.py recommend --type all
+Dashboard
+Start the interactive dashboard:
+bashpython run_dashboard.py
+python run_dashboard.py --port 8051
+python run_dashboard.py --host 127.0.0.1 --port 8050 --debug
+Open your browser and navigate to http://localhost:8050 (or your custom port)
+Update Performer Data
+Update performer metadata:
+bashpython main.py update --type cup-sizes
+python main.py update --type ratios
+python main.py update --type all
+Discord Integration
+Send data to Discord:
+bashpython main.py discord
+python main.py discord --type recommendations
+python main.py discord --type stats
+python main.py discord --type all
+Comprehensive Stats and Recommendations
+Run all statistics, recommendations and notifications in one command:
+bashpython run_stats_and_recommendations.py
+Additional options:
+bashpython run_stats_and_recommendations.py --stats-only
+python run_stats_and_recommendations.py --recommendations-only
+python run_stats_and_recommendations.py --no-discord
+python run_stats_and_recommendations.py --no-telegram
+python run_stats_and_recommendations.py --no-export
+Modules
+Statistics Module
+Analyzes your Stash data and generates statistics on:
 
-```ini
-[stash]
-api_key = your_api_key_here
-host = localhost
-port = 9999
-```
+Cup size distribution
+O-counter by cup size
+Ratios like cup-to-BMI, cup-to-height, cup-to-weight
+Sister sizes and volume analysis
+Rating and O-counter correlations
 
-2. Run the dashboard:
+Recommendation Module
 
-```bash
-python dashboard.py
-```
+Performer Recommendations: Finds similar performers based on cup size, body measurements and other factors
+Scene Recommendations: Suggests scenes with similar tags to your favorite scenes
 
-3. Open your web browser and navigate to `http://localhost:8050`
+Dashboard Module
+The interactive dashboard visualizes various statistics from your Stash data, including:
 
-### Command Line Options
+Cup Size Statistics: Cup size distribution, cup size by band size, and detailed cup size statistics
+O-Counter Statistics: O-counter by cup size, top performers by O-counter, and O-counter distribution
+Ratio Statistics: Cup to BMI ratio, cup to height ratio, and related distributions
+Sister Size Statistics: Sister size distribution, O-counter by sister size, volume distribution
+Correlation Analysis: Correlations between O-counter & rating, cup size & BMI, etc.
+Preference Analysis: Performer clusters, preference profiles, and top performers by cluster
+Visualization Tools: Interactive charts and graphs for all statistics
 
-- `--port`: Specify a custom port (default: 8050)
-- `--debug`: Run in debug mode
+Updater Module
 
-Example:
-```bash
-python dashboard.py --port 8051 --debug
-```
+Updates performers with EU cup size tags
+Adds ratio information to performer details
 
-## Refreshing Data
+Discord Module
+Sends regular updates to Discord:
 
-To refresh the data displayed in the dashboard:
+Statistics summaries with charts
+Performer recommendations
+Scene recommendations
 
-1. Click the "Refresh Data" button at the top of the page
-2. The dashboard will fetch the latest data from your Stash server
+Telegram Module
+Similar to the Discord module, but sends data to Telegram:
 
-## Dashboard Sections
+Statistics summaries
+Performer recommendations
+Scene recommendations
 
-### Cup Size Statistics
-This tab shows the distribution of cup sizes among performers, visualized in various ways:
-- **Cup Size Distribution**: Bar chart showing the count of performers with each cup size
-- **Cup Size by Band Size**: Heatmap showing the frequency of band size and cup letter combinations
-- **Cup Size Statistics Table**: Detailed table with cup size counts and percentages
+Troubleshooting
+If no data is displayed:
 
-### O-Counter Statistics
-This tab focuses on orgasm counter statistics:
-- **O-Counter by Cup Size**: Average o-counter value for each cup letter
-- **Top Performers by O-Counter**: Table showing performers with the highest o-counter values
-- **Favorite vs Non-Favorite O-Counter**: Comparison of o-counter statistics between favorite and non-favorite performers
-- **O-Counter Distribution**: Histogram showing the distribution of o-counter values
+Check your Stash URL and API key in the configuration file
+Ensure your Stash instance is running and accessible
+Verify that performers in Stash have measurements with cup sizes
 
-### Ratio Statistics
-This tab explores various ratios and relationships:
-- **Cup to BMI Ratio**: How cup size relates to BMI
-- **Cup to Height Ratio**: How cup size relates to height
-- **BMI Distribution by Cup Size**: Box plot showing BMI distribution for each cup letter
-- **Height Distribution by Cup Size**: Box plot showing height distribution for each cup letter
-
-### Sister Size Statistics
-This tab explores sister sizes and volume-related statistics:
-- **Sister Size Distribution**: Most common sister sizes
-- **O-Counter by Sister Size**: Average o-counter value for each sister size
-- **Volume Distribution**: Performer count by volume category
-- **O-Counter by Volume**: Average o-counter value for each volume category
-
-### Correlation Analysis
-This tab shows scatter plots with trendlines for various correlations:
-- **O-Counter vs Rating Correlation**: How o-counter correlates with performer rating
-- **Cup Size vs BMI Correlation**: Relationship between cup size and BMI
-- **Cup Size vs Height Correlation**: Relationship between cup size and height
-- **Cup Size vs Weight Correlation**: Relationship between cup size and weight
-
-### Preference Analysis
-This tab provides insights into performer preferences:
-- **Performer Clusters**: Radar chart showing performer clusters based on various features
-- **Preference Profile**: Summary of preference profile with statistical information
-- **Top Performers by Cluster**: Tables showing top performers in each identified cluster
-
-### Updater-Modul
-
-- Aktualisiert Performer mit EU-Cup-Größen-Tags
-- Fügt Verhältnis-Informationen zu Performer-Details hinzu
-
-### Discord-Modul
-
-Sendet regelmäßige Updates an Discord:
-- Statistik-Zusammenfassungen mit Diagrammen
-- Performer-Empfehlungen
-- Szenen-Empfehlungen
-- 
-
-## Lizenz
-
-Dieses Projekt ist unter der MIT-Lizenz lizenziert.# Stash Analytics Dashboard
-
-Ein interaktives Dashboard zur Analyse von StashApp-Daten mit Fokus auf Performer-Statistiken, O-Counter-Korrelationen und Brustgrößen-Analysen.
-
-## Installation
-
-1. Stelle sicher, dass Python 3.7+ installiert ist
-2. Installiere die benötigten Abhängigkeiten:
-
-```bash
-pip install dash pandas plotly numpy requests
-```
-
-## Konfiguration
-
-Bei der ersten Ausführung wird automatisch eine Konfigurationsdatei unter `config/configuration.ini` erstellt. Bearbeite diese Datei, um deine Stash-Instanz zu konfigurieren:
-
-```ini
-[stash]
-url = http://localhost:9999
-api_key = dein_api_key_hier
-
-[dashboard]
-cache_duration = 3600
-
-[discord]
-webhook_url = 
-enable_stats_posting = false
-enable_performer_recommendations = false
-enable_scene_recommendations = false
-```
-
-## Verwendung
-
-Starte das Dashboard mit:
-
-```bash
-python run_dashboard.py
-```
-
-Optionale Parameter:
-- `--port PORT`: Port für den Dashboard-Server (Standard: 8050)
-- `--host HOST`: Host für den Dashboard-Server (Standard: 0.0.0.0)
-- `--debug`: Debug-Modus aktivieren
-
-Öffne dann einen Browser und navigiere zu `http://localhost:8050`
-
-## Datenverzeichnisse
-
-Das Dashboard erstellt automatisch folgende Verzeichnisse:
-- `data/cache`: Für zwischengespeicherte Statistiken
-- `data/exports`: Für exportierte Daten
-- `config`: Für Konfigurationsdateien
-- `assets`: Für Dashboard-Assets wie CSS
-
-## Fehlerbehebung
-
-Wenn keine Daten angezeigt werden:
-1. Überprüfe die Stash-URL und den API-Key in der Konfigurationsdatei
-2. Stelle sicher, dass deine Stash-Instanz läuft und erreichbar ist
-3. Prüfe, ob die Performer in Stash Messungen (measurements) mit Brustgrößen haben
+License
+This project is licensed under the MIT License.
